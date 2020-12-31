@@ -5,7 +5,7 @@ import CreateCustomerService from '@modules/customers/services/CreateCustomerSer
 import { container } from 'tsyringe';
 
 export default class CustomersController {
-  public async create(request: Request, response: Response): Promise<Response> {
+  public async create(req: Request, res: Response): Promise<Response> {
     // TODO
   }
 }
