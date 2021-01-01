@@ -21,7 +21,7 @@ class CreateCustomerService {
     const customerExists = await this.customersRepository.findByEmail(email);
 
     if (customerExists) {
-      throw new AppError('This email has already been taken.', 409);
+      throw new AppError('This email has already been taken.');
     }
 
     const customer = await this.customersRepository.create({
