@@ -19,6 +19,7 @@ class Product {
 
   @Column('decimal', {
     scale: 2,
+    precision: 10,
   })
   price: number;
 

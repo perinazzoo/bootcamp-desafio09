@@ -22,6 +22,7 @@ export default class CreateOrdersProducts1609460000138
             name: 'price',
             type: 'decimal',
             scale: 2,
+            precision: 10,
           },
           {
             name: 'created_at',
